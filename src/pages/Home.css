@@ -1,0 +1,64 @@
+.Home-Page{
+    width: 100%;
+    min-height: 91.5vh;
+    max-height:auto ;
+}
+
+.homeimg{
+    width: 500px; ;
+    height: 700px;
+    border: 1px solid white;
+}
+
+.homeimg:hover{
+    zoom:100%;
+}
+
+.viewBook{
+    text-decoration: none;
+    transition: transform 0.3s ease;
+
+}
+
+.homeimg:hover{
+    color: white;
+    transform: scale(1.8);
+    background-color:cyan;
+    transform: scale(1.1);
+
+    cursor:pointer;
+}
+
+.viewBook:hover{
+    color: white;
+    transform: scale(1.8);
+    background-color:cyan;
+    transform: scale(1.8);
+
+    cursor:pointer;
+}
+.imageclass{
+
+    transition: transform 0.3s ease;
+
+}
+
+.imageclass:hover{
+    /* color: white; */
+    transform: scale(2.8);
+    /* background-color:cyan; */
+
+    /* cursor:pointer; */
+}
+
+
+
+
+
+/* .zoom-viewBook {
+  transition: transform 0.3s ease;
+} */
+
+.viewBook:hover .zoom-viewBook {
+  transform: scale(5.2);
+}
